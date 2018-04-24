@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerList should render correctly 1`] = `
+<ul
+  className="list-group"
+>
+  <li
+    className="list-group-item-action list-group-item"
+  >
+    <a
+      href="/customer/1"
+      onClick={[Function]}
+    >
+      <h5
+        className="list-group-item-heading"
+      />
+      <p
+        className="list-group-item-text"
+      />
+    </a>
+    <button
+      className="btn btn-secondary"
+      onClick={[Function]}
+      type="button"
+    >
+      Remove
+    </button>
+  </li>
+  <li
+    className="list-group-item-action list-group-item"
+  >
+    <a
+      href="/customer/2"
+      onClick={[Function]}
+    >
+      <h5
+        className="list-group-item-heading"
+      />
+      <p
+        className="list-group-item-text"
+      />
+    </a>
+    <button
+      className="btn btn-secondary"
+      onClick={[Function]}
+      type="button"
+    >
+      Remove
+    </button>
+  </li>
+</ul>
+`;

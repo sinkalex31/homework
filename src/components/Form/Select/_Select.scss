@@ -1,0 +1,34 @@
+[role='combobox'] {
+  font-size: 1.25rem;
+  border-color: rgba(134, 158, 158, 0.4);
+
+  &.rw-state-focus {
+
+    & > .rw-widget-container,
+    & > .rw-widget-container:hover {
+      background-color: #fff;
+    }
+  }
+
+  .rw-widget-container {
+
+    &.rw-state-focus,
+    &.rw-state-focus:hover {
+      background-color: #fff;
+    }
+  }
+
+  &.rw-state-disabled {
+    opacity: 0.65;
+
+    .rw-dropdown-list-input {
+      background: rgba(119, 119, 119, 0.17);
+    }
+  }
+
+  &.is-invalid {
+    .rw-widget-container:not(.rw-filter-input) {
+      border-color: #dc3545;
+    }
+  }
+}

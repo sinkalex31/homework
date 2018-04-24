@@ -1,0 +1,39 @@
+{
+  "plugins": [
+    "react-hot-loader/babel",
+    "emotion",
+    "syntax-decorators",
+    "transform-runtime",
+    "dynamic-import-webpack",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "lodash"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 5 versions",
+            "ie >= 11"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "stage-0",
+    "react"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-class-properties"
+      ],
+      "presets": [
+        ["env"],
+        "react"
+      ]
+    }
+  }
+}
